@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico " type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <main class="container-geral">
+        <section class="container-about">
+            <div class="about-content">
+                <h1>Welcome</h1>
+                <p>Log in to have access to the largest digital content platform.</p>
+                <a href="#" class="about">About</a>
+            </div>
+        </section>
+
+        <section class="container-form">
+            <div class="form-content">
+                <div class="form-header">
+                    <h1>Login in</h1>
+                    <div class="login-forms">
+                        <img src="./img/google.svg" alt="google">
+                        <img src="./img/facebook.svg" alt="facebook">
+                        <img src="./img/linkedin.svg" alt="linkedin">
+                    </div>
+                </div>
+                <form id="form" class="form" method="post">
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" class="login" placeholder="exemple@email.com" required>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" class="senha" placeholder="**********" required>
+                    </div>
+                    <div class="checbok">
+                        <input type="checkbox" name="remember">
+                        <span>Remember me</span>
+                    </div>
+                    <button class="btn" type="submit">Login</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
